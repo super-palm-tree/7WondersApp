@@ -1,0 +1,107 @@
+body {
+    background-color: darkorange;
+}
+
+.player-row {
+    background-color: white;
+}
+
+.battle-row {
+    background-color: lightcoral;
+}
+
+.money-row {
+    background-color: navajowhite;
+}
+
+.wonder-row {
+    background-color: antiquewhite;
+}
+
+.civilian-row {
+    background-color: lightblue;
+}
+
+.commerce-row {
+    background-color: cornsilk;
+}
+
+.science-row {
+    background-color: lightgreen;
+}
+
+.guild-row {
+    background-color: mediumpurple;
+}
+
+.total-row {
+    background-color: white;
+}
+
+.form-control {
+    background-color: transparent !important;
+    border: none;
+}
+
+.col-md-1 {
+    padding: 0px 0px 0px 0px;
+    border: 1px solid black;
+}
+
+.gears-row, .compasses-row, .tablets-row {
+    background-color: darkseagreen;
+}
+
+.empty {
+    background-color: darkorange;
+}
+
+.battle-icon {
+    background-color: darkred;
+}
+
+.wonder-icon {
+    background-color: #d5c389
+}
+
+.civilian-icon {
+    background-color: steelblue;
+}
+
+.commerce-icon {
+    background-color: goldenrod;
+}
+
+.scienceItems-icon {
+    background-color: darkolivegreen;
+}
+
+.science-icon {
+    background-color: forestgreen;
+}
+
+.guild-icon {
+    background-color: rebeccapurple;
+}
+
+h1 {
+    text-align: center;
+}
+
+.total-icon {
+    background-color: black;
+}
+
+input::-ms-input-placeholder {
+    color: darkslategray !important;
+}
+
+input {
+    font-size: 14px !important;
+    color: black !important;
+}
+
+.icon {
+    text-align: center;
+    vertical-align: bottom;
+}

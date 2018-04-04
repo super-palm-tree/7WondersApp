@@ -1,0 +1,178 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>7 Wonders Scoring Calculator</h1>
+        <div class="border-div">
+            <div class="row player-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 text-center"><i class="fas fa-user fa-2x icon"></i></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" placeholder="players" /></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" /></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" /></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" /></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" /></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" /></div>
+                <div class="col-md-1"><input class="form-control" type="text" maxlength="7" /></div>
+                <div class="col-md-2 empty"></div>
+            </div>
+
+            <div class="row battle-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 battle-icon text-center"><i class="fas fa-shield-alt fa-2x icon"></i></div>
+                <div class="col-md-1"><input id="player1battle" class="form-control" placeholder="battle" /></div>
+                <div class="col-md-1"><input id="player2battle" class="form-control" /></div>
+                <div class="col-md-1"><input id="player3battle" class="form-control" /></div>
+                <div class="col-md-1"><input id="player4battle" class="form-control" /></div>
+                <div class="col-md-1"><input id="player5battle" class="form-control" /></div>
+                <div class="col-md-1"><input id="player6battle" class="form-control" /></div>
+                <div class="col-md-1"><input id="player7battle" class="form-control" /></div>
+                <div class="col-md-2 empty"></div>
+            </div>
+            <div class="row money-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 text-center"><i class="fas fa-dollar-sign fa-2x icon"></i></div>
+                <div class="col-md-1"><input id="player1money" class="form-control" placeholder="money" /></div>
+                <div class="col-md-1"><input id="player2money" class="form-control" /></div>
+                <div class="col-md-1"><input id="player3money" class="form-control" /></div>
+                <div class="col-md-1"><input id="player4money" class="form-control" /></div>
+                <div class="col-md-1"><input id="player5money" class="form-control" /></div>
+                <div class="col-md-1"><input id="player6money" class="form-control" /></div>
+                <div class="col-md-1"><input id="player7money" class="form-control" /></div>
+                <div class="col-md-2 empty"></div>
+
+            </div>
+            <div class="row wonder-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 wonder-icon text-center"><i class="fas fa-caret-up icon fa-2x"></i></div>
+                <div class="col-md-1"><input id="player1wonder" class="form-control" placeholder="wonder" /></div>
+                <div class="col-md-1"><input id="player2wonder" class="form-control" /></div>
+                <div class="col-md-1"><input id="player3wonder" class="form-control" /></div>
+                <div class="col-md-1"><input id="player4wonder" class="form-control" /></div>
+                <div class="col-md-1"><input id="player5wonder" class="form-control" /></div>
+                <div class="col-md-1"><input id="player6wonder" class="form-control" /></div>
+                <div class="col-md-1"><input id="player7wonder" class="form-control" /></div>
+                <div class="col-md-2 empty"></div>
+
+            </div>
+            <div class="row civilian-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 civilian-icon text-center"><i class="fas fa-users fa-2x icon"></i></div>
+                <div class="col-md-1"><input id="player1civilian" class="form-control" placeholder="civilian" /></div>
+                <div class="col-md-1"><input id="player2civilian" class="form-control" /></div>
+                <div class="col-md-1"><input id="player3civilian" class="form-control" /></div>
+                <div class="col-md-1"><input id="player4civilian" class="form-control" /></div>
+                <div class="col-md-1"><input id="player5civilian" class="form-control" /></div>
+                <div class="col-md-1"><input id="player6civilian" class="form-control" /></div>
+                <div class="col-md-1"><input id="player7civilian" class="form-control" /></div>
+                <div class="col-md-2 empty"></div>
+
+            </div>
+            <div class="row commerce-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 commerce-icon text-center"><i class="fas fa-truck fa-2x icon"></i></div>
+                <div class="col-md-1"><input id="player1commerce" class="form-control" placeholder="commerce" /></div>
+                <div class="col-md-1"><input id="player2commerce" class="form-control" /></div>
+                <div class="col-md-1"><input id="player3commerce" class="form-control" /></div>
+                <div class="col-md-1"><input id="player4commerce" class="form-control" /></div>
+                <div class="col-md-1"><input id="player5commerce" class="form-control" /></div>
+                <div class="col-md-1"><input id="player6commerce" class="form-control" /></div>
+                <div class="col-md-1"><input id="player7commerce" class="form-control" /></div>
+                <div class="col-md-2 empty"></div>
+
+            </div>
+            <div class="scienceItems-row" style="display:none">
+                <div class="row tablets-row">
+                    <div class="col-md-2 empty"></div>
+                    <div class="col-md-1 scienceItems-icon text-center"><i class="fas fa-tablet fa-2x icon"></i></div>
+                    <div class="col-md-1"><input id="player1tablets" class="form-control" placeholder="tablets" /></div>
+                    <div class="col-md-1"><input id="player2tablets" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player3tablets" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player4tablets" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player5tablets" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player6tablets" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player7tablets" class="form-control" /></div>
+                    <div class="col-md-2 empty"></div>
+                </div>
+                <div class="row compasses-row">
+                    <div class="col-md-2 empty"></div>
+                    <div class="col-md-1 scienceItems-icon text-center"><i class="far fa-compass fa-2x icon"></i></div>
+                    <div class="col-md-1"><input id="player1compasses" class="form-control" placeholder="compasses" /></div>
+                    <div class="col-md-1"><input id="player2compasses" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player3compasses" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player4compasses" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player5compasses" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player6compasses" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player7compasses" class="form-control" /></div>
+                    <div class="col-md-2 empty"></div>
+                </div>
+                <div class="row gears-row">
+                    <div class="col-md-2 empty"></div>
+                    <div class="col-md-1 scienceItems-icon text-center"><i class="fas fa-cogs icon fa-2x"></i></div>
+                    <div class="col-md-1"><input id="player1gears" class="form-control" placeholder="gears" /></div>
+                    <div class="col-md-1"><input id="player2gears" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player3gears" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player4gears" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player5gears" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player6gears" class="form-control" /></div>
+                    <div class="col-md-1"><input id="player7gears" class="form-control" /></div>
+                    <div class="col-md-2 empty"></div>
+                </div>
+            </div>
+            <div class="row science-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 science-icon text-center"><i class="fas fa-flask fa-2x icon"></i></div>
+                <div class="col-md-1"><input id="player1sciencetotal" class="form-control" placeholder="science" readonly /></div>
+                <div class="col-md-1"><input id="player2sciencetotal" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player3sciencetotal" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player4sciencetotal" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player5sciencetotal" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player6sciencetotal" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player7sciencetotal" class="form-control" readonly /></div>
+                <div class="col-md-2 empty"></div>
+            </div>
+            <div class="row guild-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 guild-icon text-center"><i class="far fa-handshake fa-2x icon"></i></div>
+                <div class="col-md-1"><input id="player1guild" class="form-control" placeholder="guild" /></div>
+                <div class="col-md-1"><input id="player2guild" class="form-control" /></div>
+                <div class="col-md-1"><input id="player3guild" class="form-control" /></div>
+                <div class="col-md-1"><input id="player4guild" class="form-control" /></div>
+                <div class="col-md-1"><input id="player5guild" class="form-control" /></div>
+                <div class="col-md-1"><input id="player6guild" class="form-control" /></div>
+                <div class="col-md-1"><input id="player7guild" class="form-control" /></div>
+                <div class="col-md-2 empty"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-8">
+                    <button id="calculate" class="btn btn-success btn-block">Calculate Score</button>
+                </div>
+                <div class="col-md-2 empty"></div>
+            </div>
+            <div class="row total-row">
+                <div class="col-md-2 empty"></div>
+                <div class="col-md-1 total-icon text-center"><i class="fas fa-calculator fa-2x text-white icon"></i></div>
+                <div class="col-md-1"><input id="player1total" class="form-control" placeholder="total" readonly /></div>
+                <div class="col-md-1"><input id="player2total" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player3total" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player4total" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player5total" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player6total" class="form-control" readonly /></div>
+                <div class="col-md-1"><input id="player7total" class="form-control" readonly /></div>
+                <div class="col-md-2 empty"></div>
+            </div>
+        </div>
+    </div>
+     <script src="Scripts/jquery-3.3.1.js"></script>
+     <script src="Scripts/bootstrap.js"></script>
+     <script src="app.js"></script>
+</body>
+</html>
