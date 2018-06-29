@@ -2,39 +2,39 @@ body {
     background-color: darkorange;
 }
 
-.player-row {
+.player-row .col-md-1 {
     background-color: white;
 }
 
-.battle-row {
+.battle-row .col-md-1 {
     background-color: lightcoral;
 }
 
-.money-row {
+.money-row .col-md-1 {
     background-color: navajowhite;
 }
 
-.wonder-row {
+.wonder-row .col-md-1 {
     background-color: antiquewhite;
 }
 
-.civilian-row {
+.civilian-row .col-md-1 {
     background-color: lightblue;
 }
 
-.commerce-row {
+.commerce-row .col-md-1 {
     background-color: cornsilk;
 }
 
-.science-row {
+.science-row .col-md-1 {
     background-color: lightgreen;
 }
 
-.guild-row {
+.guild-row .col-md-1 {
     background-color: mediumpurple;
 }
 
-.total-row {
+.total-row .col-md-1 {
     background-color: white;
 }
 
@@ -57,31 +57,31 @@ body {
 }
 
 .battle-icon {
-    background-color: darkred;
+    background-color: darkred !important;
 }
 
 .wonder-icon {
-    background-color: #d5c389
+    background-color: #d5c389 !important;
 }
 
 .civilian-icon {
-    background-color: steelblue;
+    background-color: steelblue !important;
 }
 
 .commerce-icon {
-    background-color: goldenrod;
+    background-color: goldenrod !important;
 }
 
 .scienceItems-icon {
-    background-color: darkolivegreen;
+    background-color: darkolivegreen !important;
 }
 
 .science-icon {
-    background-color: forestgreen;
+    background-color: forestgreen !important;
 }
 
 .guild-icon {
-    background-color: rebeccapurple;
+    background-color: rebeccapurple !important;
 }
 
 h1 {
@@ -89,7 +89,7 @@ h1 {
 }
 
 .total-icon {
-    background-color: black;
+    background-color: black !important;
 }
 
 input::-ms-input-placeholder {
