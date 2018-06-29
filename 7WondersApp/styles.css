@@ -10,6 +10,10 @@ body {
     background-color: lightcoral;
 }
 
+.grayedout {
+    background-color: gray !important;
+}
+
 .money-row .col-md-1 {
     background-color: navajowhite;
 }
@@ -48,7 +52,7 @@ body {
     border: 1px solid black;
 }
 
-.gears-row, .compasses-row, .tablets-row {
+.gears-row .col-md-1, .compasses-row .col-md-1, .tablets-row .col-md-1 {
     background-color: darkseagreen;
 }
 
